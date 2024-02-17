@@ -1,0 +1,25 @@
+.categories__container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 14px 0px;
+}
+
+.categories__category {
+  width: 720px;
+  text-align: center;
+  background-color: #80ed99;
+  color: black;
+}
+
+.categories__category:hover {
+  background-color: #57cc99;
+  cursor: pointer;
+}
+
+.categories__categoryTitle {
+  text-align: center;
+  justify-content: center;
+}
